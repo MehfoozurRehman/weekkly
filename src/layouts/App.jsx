@@ -1,5 +1,6 @@
 import Head from "@modules/Head";
 import { Outlet } from "react-router-dom";
+import "swiper/scss";
 
 export default function App() {
   return (

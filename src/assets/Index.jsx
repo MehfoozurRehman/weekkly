@@ -15,3 +15,5 @@ export { default as provider3 } from "./2.png";
 export { default as provider4 } from "./4.png";
 export { default as provider5 } from "./5.png";
 export { default as sloganBackground } from "./sloganBackground.png";
+export { default as testimonials } from "./testimonials.png";
+export { default as avatar } from "./avatar.png";

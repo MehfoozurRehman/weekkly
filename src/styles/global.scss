@@ -344,6 +344,14 @@ body {
   min-height: 300px;
   min-width: 100%;
 }
+.container__home__testimonials{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0em auto;
+  padding: 0em 2em;
+}
 @media (max-width: 1300px) {
   .container__home__explore__content {
     flex-wrap: wrap;
