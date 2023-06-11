@@ -7,6 +7,7 @@ import Slogan from "../components/Slogan";
 import Testimonial from "../components/Testimonial";
 import { backgroundJumbotron } from "@assets";
 import Work from "../components/Work";
+import Logos from "../components/Logos";
 
 export default function Index() {
   // const onScroll = () => {
@@ -42,8 +43,8 @@ export default function Index() {
       <Slogan />
       <Testimonial />
       <Work />
+      <Logos />
       <Footer />
-
       <div className="container__footer"></div>
     </div>
   );
