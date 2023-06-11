@@ -9,7 +9,7 @@ import {
 } from "../assets/Index";
 import { Autoplay } from "swiper";
 
-export function Provider({ }) {
+export function Provider() {
   const providers = [
     provider1,
     provider2,

@@ -4,7 +4,7 @@ import {
   starter
 } from "../assets/Index";
 
-export function Explore({ }) {
+export function Explore() {
   return (
     <div className="container__home__explore">
       <div className="container__home__explore__title">
