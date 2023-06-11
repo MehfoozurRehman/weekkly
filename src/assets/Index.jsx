@@ -32,3 +32,6 @@ export { default as logo6 } from "./logo6.png";
 export { default as logo7 } from "./logo7.png";
 export { default as logo8 } from "./logo8.png";
 export { default as logo9 } from "./logo9.png";
+
+export { default as signupimg } from "./signupimg.png";
+export { default as signupimg2 } from "./signupimg2.png";

@@ -8,6 +8,16 @@ import Testimonial from "../components/Testimonial";
 import { backgroundJumbotron } from "@assets";
 import Work from "../components/Work";
 import Logos from "../components/Logos";
+import { Explore } from "../components/Explore";
+import { Header } from "../components/Header";
+import { Jumbotron } from "../components/Jumbotron";
+import { Provider } from "../components/Provider";
+import { Slogan } from "../components/Slogan";
+import { Testimonial } from "../components/Testimonial";
+import { Dribbble, Facebook, Instagram } from "react-feather";
+import { NavLink } from "react-router-dom";
+import { backgroundJumbotron, signupimg, signupimg2 } from "@assets";
+import { useEffect } from "react";
 
 export default function Index() {
   // const onScroll = () => {
@@ -42,9 +52,42 @@ export default function Index() {
       <Provider />
       <Slogan />
       <Testimonial />
-      <Work />
-      <Logos />
-      <Footer />
+      <div className="signupsection">
+        <div className="signupsection__content">
+          <div className="signupsection__content__left">
+            <div className="signupsection__content__left__img">
+              <img src={signupimg} alt="Signupimg" />
+
+              <div className="signupsection__content__left__heading">
+                Sign Up as a Seller
+              </div>
+              <div className="signupsection__content__left__info">
+                Send a provider you like? Subscribe and receive meals ever
+                week...
+              </div>
+              <button className="signupsection__content__left__button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+          <div className="signupsection__content__left">
+            <div className="signupsection__content__left__img">
+              <img src={signupimg2} alt="Signupimg" />
+
+              <div className="signupsection__content__left__heading">
+                Sign Up as a Seller
+              </div>
+              <div className="signupsection__content__left__info">
+                Send a provider you like? Subscribe and receive meals ever
+                week...
+              </div>
+              <button className="signupsection__content__left__button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container__footer"></div>
     </div>
   );
