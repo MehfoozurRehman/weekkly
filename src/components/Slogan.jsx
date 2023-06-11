@@ -1,6 +1,6 @@
-import { sloganBackground } from "../assets/Index";
+import { sloganBackground } from "../assets";
 
-export function Slogan() {
+export default function Slogan() {
   return (
     <div className="container__home__slogan">
       <svg

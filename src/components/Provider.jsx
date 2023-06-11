@@ -6,10 +6,10 @@ import {
   provider3,
   provider4,
   provider5
-} from "../assets/Index";
+} from "../assets";
 import { Autoplay } from "swiper";
 
-export function Provider() {
+export default function Provider() {
   const providers = [
     provider1,
     provider2,

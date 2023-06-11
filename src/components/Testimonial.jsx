@@ -1,7 +1,7 @@
-import { avatar, testimonials } from "../assets/Index";
+import { avatar, testimonials } from "../assets";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-export function Testimonial() {
+export default function Testimonial() {
   return (
     <div className="container__home__testimonials">
       <div className="container__home__testimonials__left">

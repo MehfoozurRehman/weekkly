@@ -2,9 +2,9 @@ import {
   enjoy,
   meal,
   starter
-} from "../assets/Index";
+} from "../assets";
 
-export function Explore() {
+export default function Explore() {
   return (
     <div className="container__home__explore">
       <div className="container__home__explore__title">
