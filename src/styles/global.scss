@@ -5,6 +5,16 @@
   scroll-behavior: smooth;
   font-family: sans-serif;
 }
+*::-webkit-scrollbar{
+  width: 10px;
+}
+*::-webkit-scrollbar-thumb{
+  background-color: #3fc344;
+  border-radius: 10px;
+}
+*::-webkit-scrollbar-track{
+  background-color: transparent;
+}
 body {
   margin: 0;
   padding: 0;
@@ -757,6 +767,66 @@ body {
 .logos__section__right img {
   width: 100%;
 }
+.signup__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1600px;
+  margin-top: 7em;
+  padding: 0em 2em;
+  gap: 2em;
+}
+.signup__section__entry {
+  width: 50%;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.signup__section__entry__img {
+  width: 100%;
+}
+.signup__section__entry__overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.212) 0%,
+    rgba(0, 0, 0, 0.829) 100%,
+    rgba(0, 0, 0, 0.74) 100%
+  );
+  border-radius: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:flex-end;
+  padding: 2em;
+}
+.signup__section__entry__overlay__heading{
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1em;
+}
+.signup__section__entry__overlay__info{
+  font-size: 1rem;
+  color: white;
+}
+.signup__section__entry__overlay__link{
+  background-color: #3fc344;
+  padding: 0.7em 2em;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #3fc344;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  margin-top: 2em;
+}
 @media (max-width: 1300px) {
   .container__home__explore__content {
     flex-wrap: wrap;
@@ -836,6 +906,12 @@ body {
   }
 }
 @media (max-width: 1000px) {
+  .signup__section{
+    flex-direction: column;
+  }
+  .signup__section__entry{
+    width: 100%;
+  }
   .logos__section {
     flex-direction: column;
   }
