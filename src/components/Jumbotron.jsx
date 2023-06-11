@@ -10,7 +10,7 @@ import {
   sun
 } from "@assets";
 
-export function Jumbotron() {
+export default function Jumbotron() {
   const days = [
     {
       day: "monday",

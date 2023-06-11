@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-export function Header() {
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
 
   const toggleMenu = () => {

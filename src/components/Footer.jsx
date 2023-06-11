@@ -1,7 +1,7 @@
 import { Dribbble, Facebook, Instagram } from "react-feather";
 import { NavLink } from "react-router-dom";
 
-export function Footer() {
+export default function Footer() {
   return (
     <div className="container__footer">
       <div className="container__footer__content">
