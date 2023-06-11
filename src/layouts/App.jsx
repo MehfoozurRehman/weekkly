@@ -1,4 +1,5 @@
 import "swiper/scss";
+import "swiper/scss/pagination";
 
 import Head from "@modules/Head";
 import { Outlet } from "react-router-dom";
