@@ -1,11 +1,11 @@
-import { useEffect } from "react";
-import { backgroundJumbotron } from "@assets";
-import { Jumbotron } from "../components/Jumbotron";
-import { Header } from "../components/Header";
 import { Explore } from "../components/Explore";
-import { Slogan } from "../components/Slogan";
+import { Header } from "../components/Header";
+import { Jumbotron } from "../components/Jumbotron";
 import { Provider } from "../components/Provider";
+import { Slogan } from "../components/Slogan";
 import { Testimonial } from "../components/Testimonial";
+import { backgroundJumbotron } from "@assets";
+import { useEffect } from "react";
 
 export default function Index() {
   const onScroll = () => {
