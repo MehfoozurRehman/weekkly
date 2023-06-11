@@ -1,7 +1,4 @@
-import {
-  signupimg,
-  signupimg2
-} from "@assets";
+import { signupimg, signupimg2 } from "@assets";
 
 export default function Signup() {
   return (
