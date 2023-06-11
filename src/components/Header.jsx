@@ -45,15 +45,11 @@ export default function Header() {
           <Link to="/" className="container__header__nav__link">
             About
           </Link>
-          <Link to="/" className="container__header__nav__link">
-            Our Vendors
-          </Link>
+
           <Link to="/" className="container__header__nav__link">
             Blog
           </Link>
-          <Link to="/" className="container__header__nav__link">
-            Latest Deals
-          </Link>
+
           <Link to="/" className="container__header__nav__link">
             Contact
           </Link>

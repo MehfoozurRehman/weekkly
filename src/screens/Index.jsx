@@ -7,9 +7,10 @@ import Slogan from "../components/Slogan";
 import Testimonial from "../components/Testimonial";
 import Work from "../components/Work";
 import Logos from "../components/Logos";
-import { backgroundJumbotron } from "@assets";
+import { backgroundJumbotron, personalised } from "@assets";
 import Signup from "../components/Signup";
 import Searches from "../components/Searches";
+import Fade from "react-reveal/Fade";
 
 export default function Index() {
   // const onScroll = () => {
@@ -33,11 +34,14 @@ export default function Index() {
     <div className="container">
       <Header />
       <div className="container__home__section">
-        <img
-          src={backgroundJumbotron}
-          alt="backgroundJumbotron"
-          className="container__home__section__svg1"
-        />
+        <Fade top>
+          <img
+            src={backgroundJumbotron}
+            alt="backgroundJumbotron"
+            className="container__home__section__svg1"
+          />
+        </Fade>
+
         <Jumbotron />
       </div>
       <Explore />
@@ -45,9 +49,21 @@ export default function Index() {
       <Slogan />
       <Testimonial />
       <Searches />
-      <Work />
+      <Fade bottom>
+        <div className="personalised__section">
+          <img src={personalised}></img>
+        </div>
+      </Fade>
+      <Fade bottom>
+        <Work />
+      </Fade>
+
       <Signup />
-      <Logos />
+
+      <Fade bottom>
+        <Logos />
+      </Fade>
+
       <Footer />
     </div>
   );
