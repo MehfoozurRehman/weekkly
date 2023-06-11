@@ -7,6 +7,7 @@ import { Slogan } from "../components/Slogan";
 import { Testimonial } from "../components/Testimonial";
 import { backgroundJumbotron } from "@assets";
 import { useEffect } from "react";
+import Work from "../components/Work";
 
 export default function Index() {
   const onScroll = () => {
@@ -41,7 +42,10 @@ export default function Index() {
       <Provider />
       <Slogan />
       <Testimonial />
+      <Work />
       <Footer />
+
+      <div className="container__footer"></div>
     </div>
   );
 }
