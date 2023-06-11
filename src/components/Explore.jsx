@@ -1,5 +1,6 @@
 import { enjoy, meal, starter } from "../assets";
 import Fade from "react-reveal/Fade";
+import Img from "@modules/Img";
 
 export default function Explore() {
   return (
@@ -36,7 +37,8 @@ export default function Explore() {
             <div className="container__home__explore__content__entry__title">
               Meal Kits
             </div>
-            <img
+            <Img
+              suspense={true}
               src={meal}
               alt="Meal Kits"
               className="container__home__explore__content__entry__img"
@@ -57,7 +59,8 @@ export default function Explore() {
             <div className="container__home__explore__content__entry__title">
               Meal Prep
             </div>
-            <img
+            <Img
+              suspense={true}
               src={starter}
               alt="Meal Kits"
               className="container__home__explore__content__entry__img"
@@ -78,7 +81,8 @@ export default function Explore() {
             <div className="container__home__explore__content__entry__title">
               Food trays
             </div>
-            <img
+            <Img
+              suspense={true}
               src={enjoy}
               alt="Meal Kits"
               className="container__home__explore__content__entry__img"

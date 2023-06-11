@@ -3,8 +3,18 @@ import "swiper/scss/pagination";
 
 import Head from "@modules/Head";
 import { Outlet } from "react-router-dom";
+import { useEffect, useState } from "react";
+import Loading from "./Loading";
 
 export default function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
+
   return (
     <>
       <Head
@@ -13,7 +23,7 @@ export default function App() {
         url="https://vitefilerouter.com"
         description="Remixer"
       />
-      <Outlet />
+      {loading ? <Loading /> : <Outlet />}
     </>
   );
 }

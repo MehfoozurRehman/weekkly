@@ -11,28 +11,29 @@ import {
   logo8,
   logo9,
 } from "@assets";
+import Img from "@modules/Img";
 
 export default function Logos() {
   return (
     <div className="logos__section">
       <div className="logos__section__left">
         <div className="logos__section__left__title">
-          <img src={live}></img>
+          <Img suspense={true} src={live} />
         </div>
         <div className="logos__section__left__logos">
-          <img src={logo1}></img>
-          <img src={logo2}></img>
-          <img src={logo3}></img>
-          <img src={logo4}></img>
-          <img src={logo5}></img>
-          <img src={logo6}></img>
-          <img src={logo7}></img>
-          <img src={logo8}></img>
-          <img src={logo9}></img>
+          <Img suspense={true} src={logo1} />
+          <Img suspense={true} src={logo2} />
+          <Img suspense={true} src={logo3} />
+          <Img suspense={true} src={logo4} />
+          <Img suspense={true} src={logo5} />
+          <Img suspense={true} src={logo6} />
+          <Img suspense={true} src={logo7} />
+          <Img suspense={true} src={logo8} />
+          <Img suspense={true} src={logo9} />
         </div>
       </div>
       <div className="logos__section__right">
-        <img src={logosImage}></img>
+        <Img suspense={true} src={logosImage} />
       </div>
     </div>
   );

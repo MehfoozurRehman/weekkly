@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { mon, tue, wed, thu, fri, sat, sun } from "@assets";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
+import Img from "@modules/Img";
 
 export default function Jumbotron() {
   const days = [
@@ -98,7 +99,8 @@ export default function Jumbotron() {
           <div className="container__home__jumbotron__right__title">
             {currentDay.day}
           </div>{" "}
-          <img
+          <Img
+            suspense={true}
             src={currentDay.img}
             alt="food"
             className="container__home__jumbotron__right__image"
