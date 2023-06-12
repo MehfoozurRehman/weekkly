@@ -13,6 +13,7 @@ import Searches from "../components/Searches";
 import Fade from "react-reveal/Fade";
 import Comingsoon from "../components/Comingsoon";
 import Personalized from "../components/Personalized";
+import Img from "@modules/Img";
 
 export default function Index() {
   // const onScroll = () => {
@@ -67,5 +68,3 @@ export default function Index() {
     </div>
   );
 }
-
-
