@@ -39,3 +39,4 @@ export { default as search2 } from "./search2.png";
 export { default as search3 } from "./search3.png";
 export { default as search4 } from "./search4.png";
 export { default as personalised } from "./personalised.png";
+export { default as comingsoon } from "./comingsoon.png";

@@ -839,6 +839,20 @@ body {
   transition: 300ms ease-in-out;
   margin-top: 2em;
 }
+.comingsoon__section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 2em 0em;
+}
+.comingsoon__section__img {
+  width: 100%;
+}
+.comingsoon__section__heading {
+  position: absolute;
+  top: 50%;
+}
 @media (max-width: 1300px) {
   .container__home__explore__content {
     flex-wrap: wrap;
@@ -1010,6 +1024,12 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+  }
+  .comingsoon__section__heading svg {
+    width: 250px;
+  }
+  .comingsoon__section__heading {
+    top: 30%;
   }
 }
 @media (max-width: 600px) {
