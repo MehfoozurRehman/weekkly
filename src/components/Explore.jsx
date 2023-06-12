@@ -37,8 +37,7 @@ export default function Explore() {
             <div className="container__home__explore__content__entry__title">
               Meal Kits
             </div>
-            <Img
-              suspense={true}
+            <img
               src={meal}
               alt="Meal Kits"
               className="container__home__explore__content__entry__img"
@@ -59,8 +58,7 @@ export default function Explore() {
             <div className="container__home__explore__content__entry__title">
               Meal Prep
             </div>
-            <Img
-              suspense={true}
+            <img
               src={starter}
               alt="Meal Kits"
               className="container__home__explore__content__entry__img"
@@ -81,8 +79,7 @@ export default function Explore() {
             <div className="container__home__explore__content__entry__title">
               Food trays
             </div>
-            <Img
-              suspense={true}
+            <img
               src={enjoy}
               alt="Meal Kits"
               className="container__home__explore__content__entry__img"

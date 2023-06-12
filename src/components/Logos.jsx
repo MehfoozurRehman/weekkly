@@ -18,22 +18,22 @@ export default function Logos() {
     <div className="logos__section">
       <div className="logos__section__left">
         <div className="logos__section__left__title">
-          <Img suspense={true} src={live} />
+          <img src={live} />
         </div>
         <div className="logos__section__left__logos">
-          <Img suspense={true} src={logo1} />
-          <Img suspense={true} src={logo2} />
-          <Img suspense={true} src={logo3} />
-          <Img suspense={true} src={logo4} />
-          <Img suspense={true} src={logo5} />
-          <Img suspense={true} src={logo6} />
-          <Img suspense={true} src={logo7} />
-          <Img suspense={true} src={logo8} />
-          <Img suspense={true} src={logo9} />
+          <img src={logo1} />
+          <img src={logo2} />
+          <img src={logo3} />
+          <img src={logo4} />
+          <img src={logo5} />
+          <img src={logo6} />
+          <img src={logo7} />
+          <img src={logo8} />
+          <img src={logo9} />
         </div>
       </div>
       <div className="logos__section__right">
-        <Img suspense={true} src={logosImage} />
+        <img src={logosImage} />
       </div>
     </div>
   );

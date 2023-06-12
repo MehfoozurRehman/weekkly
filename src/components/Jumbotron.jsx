@@ -99,8 +99,7 @@ export default function Jumbotron() {
           <div className="container__home__jumbotron__right__title">
             {currentDay.day}
           </div>{" "}
-          <Img
-            suspense={true}
+          <img
             src={currentDay.img}
             alt="food"
             className="container__home__jumbotron__right__image"
