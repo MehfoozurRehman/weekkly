@@ -7,7 +7,7 @@ export default function ComingSoonForm() {
   return (
     <div className="comingsoon__section__content__overlay__form">
       <div className="comingsoon__section__content__overlay__form__header">
-        <div className="comingsoon__section__content__overlay__form__header__heading">
+        <div className="comingsoon__section__content__overlay__form__header__title">
           Compare
         </div>
         <select
@@ -46,7 +46,7 @@ export default function ComingSoonForm() {
               className="comingsoon__section__content__overlay__form__input"
               key={index}
             >
-              <label htmlFor="">{item}</label>
+              <label className="comingsoon__section__content__overlay__form__input__label">{item}</label>
               <input
                 className="comingsoon__section__content__overlay__form__input__field"
                 placeholder="Quantity" />

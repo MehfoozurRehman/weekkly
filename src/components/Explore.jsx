@@ -47,10 +47,8 @@ export default function Explore() {
                 Meal Kits
               </div>
               <div className="container__home__explore__content__entry__overlay__info">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the iLorem Ipsum has been the
-                iLorem Ipsum has been the iLorem Ipsum is simply dummy text of
-                the printing and typesetting industry.
+                Find the Meal Kit provider that is right for you. Easily compare
+                the prices of the some of your fave vendors. Get started now...
               </div>
             </div>
           </div>
@@ -68,10 +66,9 @@ export default function Explore() {
                 Meal Prep
               </div>
               <div className="container__home__explore__content__entry__overlay__info">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the iLorem Ipsum has been the
-                iLorem Ipsum has been the iLorem Ipsum is simply dummy text of
-                the printing and typesetting industry.
+                Find the Meal Prep provider that iss closer to you. Easily
+                compare the prices of the some of your fave vendors. Get started
+                now...
               </div>
             </div>
           </div>
@@ -86,13 +83,12 @@ export default function Explore() {
             />
             <div className="container__home__explore__content__entry__overlay">
               <div className="container__home__explore__content__entry__overlay__title">
-                Food trays
+                Food trays and chauteries
               </div>
               <div className="container__home__explore__content__entry__overlay__info">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the iLorem Ipsum has been the
-                iLorem Ipsum has been the iLorem Ipsum is simply dummy text of
-                the printing and typesetting industry.
+                Feel like buying a large tray of jollof rice for your family or
+                do you feel like a chauteria breakfast board? Check out our
+                vendors who sell food in bulk and large quantities. See more....
               </div>
             </div>
           </div>

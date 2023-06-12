@@ -43,7 +43,6 @@ export default function Index() {
             className="container__home__section__svg1"
           />
         </Fade>
-
         <Jumbotron />
       </div>
       <Explore />

@@ -23,99 +23,83 @@ export default function Searches() {
 
   const list = [
     {
-      title: "Search 1",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "African Food",
+
       image: search1,
     },
     {
-      title: "Search 2",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Gluten Free",
+
       image: search2,
     },
     {
-      title: "Search 3",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Low carb",
+
       image: search3,
     },
     {
-      title: "Search 4",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Chauterie",
+
       image: search4,
     },
     {
-      title: "Search 1",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "African Food",
+
       image: search1,
     },
     {
-      title: "Search 2",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Gluten Free",
+
       image: search2,
     },
     {
-      title: "Search 3",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Low carb",
+
       image: search3,
     },
     {
-      title: "Search 4",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Chauterie",
+
       image: search4,
     },
     {
-      title: "Search 1",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "African Food",
+
       image: search1,
     },
     {
-      title: "Search 2",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Gluten Free",
+
       image: search2,
     },
     {
-      title: "Search 3",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Low carb",
+
       image: search3,
     },
     {
-      title: "Search 4",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Chauterie",
+
       image: search4,
     },
     {
-      title: "Search 1",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "African Food",
+
       image: search1,
     },
     {
-      title: "Search 2",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Gluten Free",
+
       image: search2,
     },
     {
-      title: "Search 3",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Low carb",
+
       image: search3,
     },
     {
-      title: "Search 4",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      title: "Chauterie",
+
       image: search4,
     },
   ];
@@ -161,9 +145,6 @@ export default function Searches() {
                   <div className="container__home__searches__content__entry__overlay">
                     <div className="container__home__searches__content__entry__overlay__title">
                       {item.title}
-                    </div>
-                    <div className="container__home__searches__content__entry__overlay__info">
-                      {item.description}
                     </div>
                   </div>
                 </div>

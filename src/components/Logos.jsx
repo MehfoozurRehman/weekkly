@@ -11,14 +11,19 @@ import {
   logo8,
   logo9,
 } from "@assets";
-import Img from "@modules/Img";
 
 export default function Logos() {
   return (
     <div className="logos__section">
       <div className="logos__section__left">
-        <div className="logos__section__left__title">
-          <img src={live} />
+        <img src={live}  className="logos__section__left__title__img"/>
+        <div className="logos__section__left__title__heading">
+          Cook along with our community{" "}
+        </div>
+        <div className="logos__section__left__title__info">
+          Join the online community. Buy your meal kits and cook along with
+          others who are cooking the same meals as you with our live stream
+          capabilities.
         </div>
         <div className="logos__section__left__logos">
           <img src={logo1} />
