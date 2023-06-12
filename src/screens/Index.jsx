@@ -37,13 +37,11 @@ export default function Index() {
     <div className="container">
       <Header />
       <div className="container__home__section">
-        <Fade top>
-          <img
-            src={backgroundJumbotron}
-            alt="backgroundJumbotron"
-            className="container__home__section__svg1"
-          />
-        </Fade>
+        <img
+          src={backgroundJumbotron}
+          alt="backgroundJumbotron"
+          className="container__home__section__svg1"
+        />
         <Jumbotron />
       </div>
       <Explore />

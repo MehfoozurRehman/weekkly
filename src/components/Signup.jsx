@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 
 export default function Signup() {
   return (
-    <div className="signup__section">
+    <section className="signup__section" id="compare">
       <Fade left>
         <div className="signup__section__entry">
           <img
@@ -47,6 +47,6 @@ export default function Signup() {
           </div>
         </div>
       </Fade>
-    </div>
+    </section>
   );
 }

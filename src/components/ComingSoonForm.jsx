@@ -25,9 +25,11 @@ export default function ComingSoonForm() {
           <div className="comingsoon__section__content__overlay__form__tabs">
             {list.map((item, index) => (
               <button
-                className={selectedList.includes(item)
-                  ? "comingsoon__section__content__overlay__form__tabs__tab comingsoon__section__content__overlay__form__tabs__tab__select"
-                  : "comingsoon__section__content__overlay__form__tabs__tab"}
+                className={
+                  selectedList.includes(item)
+                    ? "comingsoon__section__content__overlay__form__tabs__tab comingsoon__section__content__overlay__form__tabs__tab__select"
+                    : "comingsoon__section__content__overlay__form__tabs__tab"
+                }
                 key={index}
                 onClick={() => {
                   if (selectedList.includes(item)) {
@@ -46,10 +48,13 @@ export default function ComingSoonForm() {
               className="comingsoon__section__content__overlay__form__input"
               key={index}
             >
-              <label className="comingsoon__section__content__overlay__form__input__label">{item}</label>
+              <label className="comingsoon__section__content__overlay__form__input__label">
+                {item}
+              </label>
               <input
                 className="comingsoon__section__content__overlay__form__input__field"
-                placeholder="Quantity" />
+                placeholder="Quantity"
+              />
             </div>
           ))}
         </>
@@ -58,11 +63,16 @@ export default function ComingSoonForm() {
           <label htmlFor="">Quantity</label>
           <input
             className="comingsoon__section__content__overlay__form__input__field"
-            placeholder="Quantity" />
+            placeholder="Quantity"
+          />
         </div>
       )}
-
-      <button className="comingsoon__section__content__overlay__form__button">
+      <button
+        onClick={() => {
+          document.getElementById("compare").scrollIntoView();
+        }}
+        className="comingsoon__section__content__overlay__form__button"
+      >
         Compare
       </button>
     </div>
