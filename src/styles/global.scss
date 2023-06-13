@@ -479,6 +479,7 @@ body {
   width: 30%;
 }
 .container__footer__content__left__logo__info {
+  display: none;
   font-size: 16px;
   font-weight: 500;
   max-width: 320px;
@@ -756,14 +757,14 @@ body {
   display: flex;
   flex-direction: column;
 }
-.logos__section__left__title__heading{
+.logos__section__left__title__heading {
   font-size: 2.5rem;
   width: 100%;
   max-width: 400px;
   color: #000;
   font-weight: 600;
 }
-.logos__section__left__title__info{
+.logos__section__left__title__info {
   font-size: 1rem;
   color: #8e8e8e;
   width: 100%;
@@ -873,12 +874,12 @@ body {
   display: flex;
   justify-content: center;
 }
-.comingsoon__section__content__img{
+.comingsoon__section__content__img {
   min-width: 100%;
   min-height: 500px;
   object-fit: cover;
 }
-.comingsoon__section__content__overlay{
+.comingsoon__section__content__overlay {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -888,7 +889,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.comingsoon__section__content__overlay__form{
+.comingsoon__section__content__overlay__form {
   padding: 2em;
   border-radius: 10px;
   background-color: white;
@@ -898,19 +899,19 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.comingsoon__section__content__overlay__form__header{
+.comingsoon__section__content__overlay__form__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1em;
   width: 100%;
 }
-.comingsoon__section__content__overlay__form__header__title{
+.comingsoon__section__content__overlay__form__header__title {
   font-size: 1.5rem;
   font-weight: 600;
   color: #20253a;
 }
-.comingsoon__section__content__overlay__form__header__select{
+.comingsoon__section__content__overlay__form__header__select {
   background-color: #f3f3f3;
   padding: 0.7em 2em;
   border-radius: 50px;
@@ -922,12 +923,12 @@ body {
   cursor: pointer;
   transition: 300ms ease-in-out;
 }
-.comingsoon__section__content__overlay__form__tabs{
+.comingsoon__section__content__overlay__form__tabs {
   display: flex;
   margin-bottom: 1em;
   width: 100%;
 }
-.comingsoon__section__content__overlay__form__tabs__tab{
+.comingsoon__section__content__overlay__form__tabs__tab {
   background-color: #f3f3f3;
   padding: 0.7em 2em;
   border-radius: 50px;
@@ -936,32 +937,32 @@ body {
   border: none;
   cursor: pointer;
   font-size: 14px;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
-.comingsoon__section__content__overlay__form__tabs__tab:hover{
+.comingsoon__section__content__overlay__form__tabs__tab:hover {
   background-color: #e9e9e9;
   color: #242424;
 }
-.comingsoon__section__content__overlay__form__tabs__tab__select{
+.comingsoon__section__content__overlay__form__tabs__tab__select {
   background-color: #3fc344;
   color: white;
 }
-.comingsoon__section__content__overlay__form__tabs__tab__select:hover{
+.comingsoon__section__content__overlay__form__tabs__tab__select:hover {
   background-color: #27bd2c;
   color: white;
 }
-.comingsoon__section__content__overlay__form__input{
+.comingsoon__section__content__overlay__form__input {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.comingsoon__section__content__overlay__form__input__label{
+.comingsoon__section__content__overlay__form__input__label {
   font-size: 14px;
   color: #3fc344;
   font-weight: 600;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
-.comingsoon__section__content__overlay__form__input__field{
+.comingsoon__section__content__overlay__form__input__field {
   padding: 0em 1em;
   height: 40px;
   border-radius: 10px;
@@ -973,7 +974,7 @@ body {
   transition: 300ms ease-in-out;
   background-color: #f3f3f3;
 }
-.comingsoon__section__content__overlay__form__button{
+.comingsoon__section__content__overlay__form__button {
   background-color: black;
   color: white;
   padding: 0.7em 2em;
@@ -984,11 +985,11 @@ body {
   font-size: 14px;
   cursor: pointer;
 }
-.comingsoon__section__content__overlay__form__button:hover{
+.comingsoon__section__content__overlay__form__button:hover {
   background-color: #3fc344;
 }
 @media (max-width: 1400px) {
-  .container__home__section__svg1{
+  .container__home__section__svg1 {
     top: -200px;
     right: -200px;
   }
@@ -1058,7 +1059,7 @@ body {
   }
 }
 @media (max-width: 1100px) {
-  .container__home__section__svg1{
+  .container__home__section__svg1 {
     top: -300px;
     right: -300px;
   }
@@ -1174,7 +1175,7 @@ body {
   .comingsoon__section__heading svg {
     width: 250px;
   }
-  .logos__section__left__logos{
+  .logos__section__left__logos {
     margin-left: 0em;
   }
   .comingsoon__section__heading {

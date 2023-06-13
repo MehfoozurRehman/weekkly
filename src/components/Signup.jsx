@@ -27,7 +27,6 @@ export default function Signup() {
       </Fade>
 
       <Fade right>
-        {" "}
         <div className="signup__section__entry">
           <img
             src={signup2}

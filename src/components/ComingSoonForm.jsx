@@ -60,7 +60,12 @@ export default function ComingSoonForm() {
         </>
       ) : (
         <div className="comingsoon__section__content__overlay__form__input">
-          <label htmlFor="">Quantity</label>
+          <label
+            className="comingsoon__section__content__overlay__form__input__label"
+            htmlFor=""
+          >
+            Breakfast/Mains/Snacks
+          </label>
           <input
             className="comingsoon__section__content__overlay__form__input__field"
             placeholder="Quantity"

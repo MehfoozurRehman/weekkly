@@ -54,7 +54,6 @@ export default function Jumbotron() {
   return (
     <div className="container__home__jumbotron">
       <Fade left>
-        {" "}
         <div className="container__home__jumbotron__left">
           <svg
             viewBox="0 0 484 218"
@@ -98,7 +97,7 @@ export default function Jumbotron() {
           <Fade></Fade>
           <div className="container__home__jumbotron__right__title">
             {currentDay.day}
-          </div>{" "}
+          </div>
           <img
             src={currentDay.img}
             alt="food"
