@@ -29,8 +29,9 @@ export default function Explore() {
       </Fade>
       <Fade bottom>
         <div className="container__home__explore__info">
-          Buy <span>meal kits</span>, <span>meal prep</span> or
-          <span>food trays</span> weekly or monthly..
+          Buy <span>meal kits</span>, <span>meal prep </span> or
+          <span> food trays</span> weekly or monthly from 100s of vendors near
+          you.....
         </div>
         <div className="container__home__explore__content">
           <div className="container__home__explore__content__entry">

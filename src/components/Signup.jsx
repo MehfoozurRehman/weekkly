@@ -35,7 +35,7 @@ export default function Signup() {
           />
           <div className="signup__section__entry__overlay">
             <div className="signup__section__entry__overlay__heading">
-              Sign Up as a Seller
+              Sign Up as a Buyer
             </div>
             <div className="signup__section__entry__overlay__info">
               Send a provider you like? Subscribe and receive meals ever week...
