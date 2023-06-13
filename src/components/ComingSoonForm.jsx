@@ -1,24 +1,30 @@
 import { useState } from "react";
 
 export default function ComingSoonForm() {
-  const [isList, setIsList] = useState(false);
+  const [isList, setIsList] = useState(true);
   const list = ["Breakfast", "Mains", "Snacks/Desserts"];
-  const [selectedList, setSelectedList] = useState([]);
+  const [selectedList, setSelectedList] = useState([
+    "Breakfast",
+    "Mains",
+    "Snacks/Desserts",
+  ]);
   return (
     <div className="comingsoon__section__content__overlay__form">
       <div className="comingsoon__section__content__overlay__form__header">
         <div className="comingsoon__section__content__overlay__form__header__title">
           Compare
         </div>
-        <select
-          className="comingsoon__section__content__overlay__form__header__select"
-          onChange={(e) => {
-            setIsList(e.target.value === "true");
-          }}
-        >
-          <option value="false">Same for all</option>
-          <option value="true">Different for all</option>
-        </select>
+        <div className="comingsoon__section__content__overlay__form__header__select__wrapper">
+          <select
+            className="comingsoon__section__content__overlay__form__header__select"
+            onChange={(e) => {
+              setIsList(e.target.value === "true");
+            }}
+          >
+            <option value="true">Different for all</option>
+            <option value="false">Same for all</option>
+          </select>
+        </div>
       </div>
       {isList ? (
         <>

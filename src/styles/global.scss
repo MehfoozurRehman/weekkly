@@ -912,8 +912,8 @@ body {
   color: #20253a;
 }
 .comingsoon__section__content__overlay__form__header__select {
-  background-color: #f3f3f3;
-  padding: 0.7em 2em;
+  background-color: transparent;
+  padding: 0.7em 1em;
   border-radius: 50px;
   text-decoration: none;
   color: #242424;
@@ -922,6 +922,11 @@ body {
   outline: none;
   cursor: pointer;
   transition: 300ms ease-in-out;
+}
+.comingsoon__section__content__overlay__form__header__select__wrapper {
+  background-color: #f3f3f3;
+  padding: 0 1em 0 0.5em;
+  border-radius: 50px;
 }
 .comingsoon__section__content__overlay__form__tabs {
   display: flex;
