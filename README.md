@@ -32,6 +32,26 @@ Just do it any help would be appriciated
 
 [ ] documentation
 
+# How to build
+
+## Install dependencies
+
+```bash
+yarn install
+```
+
+## Run the development server
+
+```bash
+yarn dev
+```
+
+## Build for production
+
+```bash
+yarn build
+```
+
 ## Author
 
 - [@mehfoozurrehman](https://www.github.com/mehfoozurrehman)
