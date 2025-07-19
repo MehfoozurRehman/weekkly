@@ -1,57 +1,42 @@
-# Remixer
+# Weekkly
 
-## Description
+Weekkly is a modern productivity and scheduling app built with React. It helps you organize your week, manage tasks, and stay on top of your goals with a clean and intuitive interface.
 
-Welcome to our starter for React apps! Our goal is to provide you with the tools you need to speed up your development process. Our starter includes file-based routing, flattened and nested routes, as well as lazy loading to optimize asset loading. We also have automatic exporting for both components and assets, with import support for SASS or CSS files for easy styling. In addition, we offer support for prefetching and a head component. We were inspired by Next.js, but worked to incorporate the style of Remix to create a unique combination that we hope you'll love! 💖
+## Features
 
-## Table of Contents
+- Weekly planner and calendar view
+- Task and goal management
+- Responsive and user-friendly UI
+- Fast performance with Vite
+- Modular codebase for easy customization
 
--[Usage](#usage)
+## Tech Stack
 
--[Contributions](#contributions)
+- React
+- Vite
+- React Router
+- SWR
+- Styled Components
 
--[Questions](#questions)
+## Getting Started
 
-## Usage
-
-#### `yarn install`
-
-#### `yarn dev`
-
-#### `yarn build`
-
-#### `yarn preview`
-
-## License
-
-MIT | Feel free to use this for your own projects
-
-## Contributions
-
-Just do it any help would be appriciated
-
-[ ] documentation
-
-# How to build
-
-## Install dependencies
+### Development
 
 ```bash
-yarn install
+npm install
+npm run dev
 ```
 
-## Run the development server
+### Build
 
 ```bash
-yarn dev
-```
-
-## Build for production
-
-```bash
-yarn build
+npm run build
 ```
 
 ## Author
 
-- [@mehfoozurrehman](https://www.github.com/mehfoozurrehman)
+Mehfooz-ur-Rehman
+
+## License
+
+MIT
